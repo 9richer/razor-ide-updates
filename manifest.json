@@ -1,0 +1,66 @@
+{
+  "manifest_version": "1.0",
+  "updated": "2026-05-20",
+  "boards": [
+    {
+      "id": "razor_s4",
+      "name": "RazorS3",
+      "description": "บอร์ดหลัก C++ RP2040",
+      "emoji": "🤖",
+      "language": "cpp",
+      "version": "1.4.2",
+      "board_url": "",
+      "tools_url": "",
+      "shop_url": "",
+      "facebook_url": ""
+    },
+    {
+      "id": "razor_s4_python",
+      "name": "RazorS3-PY",
+      "description": "บอร์ด MicroPython RP2040",
+      "emoji": "🐍",
+      "language": "python",
+      "version": "1.4.2",
+      "board_url": "",
+      "tools_url": "",
+      "shop_url": "",
+      "facebook_url": ""
+    },
+    {
+      "id": "nano",
+      "name": "Arduino Nano",
+      "description": "Arduino Nano AVR C++",
+      "emoji": "🔵",
+      "language": "cpp",
+      "version": "1.0.0",
+      "board_url": "",
+      "tools_url": "",
+      "shop_url": "",
+      "facebook_url": ""
+    },
+    {
+      "id": "pico2040",
+      "name": "Raspberry Pi Pico",
+      "description": "RP2040 C++",
+      "emoji": "🟢",
+      "language": "cpp",
+      "version": "1.0.0",
+      "board_url": "",
+      "tools_url": "",
+      "shop_url": "",
+      "facebook_url": ""
+    },
+    {
+      "id": "esp32",
+      "name": "ESP32",
+      "description": "WiFi/BLE C++",
+      "emoji": "📡",
+      "language": "cpp",
+      "version": "1.0.0",
+      "board_url": "",
+      "tools_url": "",
+      "shop_url": "",
+      "facebook_url": ""
+    }
+  ]
+}
