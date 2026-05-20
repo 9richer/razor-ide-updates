@@ -1,0 +1,12 @@
+{
+  "version": "1.4.2",
+  "title": "RAZOR IDE v1.4.2",
+  "changelog": [
+    "เพิ่มระบบ driver config-driven",
+    "แก้ไข Upload RP2040 แสดงผลถูกต้อง",
+    "comment สีเขียวใน Code mode",
+    "เพิ่มปุ่ม Rescan COM Port"
+  ],
+  "show_once": true,
+  "url": ""
+}
