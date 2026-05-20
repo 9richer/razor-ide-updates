@@ -7,7 +7,7 @@
       "name": "RazorS3",
       "description": "บอร์ดหลัก C++ RP2040",
       "emoji": "🤖",
-      "image": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/images/razor_s3.PNG",
+      "image": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/images/razor_s3.png",
       "language": "cpp",
       "version": "1.4.2",
       "board_url": "",
