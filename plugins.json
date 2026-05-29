@@ -3,23 +3,23 @@
   "updated": "2026-05-29",
   "plugins": [
     {
-      "id": "servo_esp32",
-      "name": "Servo (ESP32)",
-      "description": "Servo motor สำหรับ ESP32",
-      "icon": "🦾",
-      "supports": ["esp32", "RAZOR-S2"],
-      "version": "1.0.0",
-      "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/plugin_servo_esp32.zip",
-      "author": "RazorIDE"
-    },
-    {
       "id": "servo_nano",
       "name": "Servo (Nano)",
-      "description": "Servo motor สำหรับ Arduino Nano",
+      "description": "Servo motor สำหรับ Arduino Nano — PWM pins D3,D5,D6,D9,D10,D11",
       "icon": "🦾",
       "supports": ["nano"],
       "version": "1.0.0",
       "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/plugin_servo_nano.zip",
+      "author": "RazorIDE"
+    },
+    {
+      "id": "servo_esp32",
+      "name": "Servo (ESP32)",
+      "description": "Servo motor สำหรับ ESP32 — GPIO PWM pins",
+      "icon": "🦾",
+      "supports": ["esp32"],
+      "version": "1.0.0",
+      "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/plugin_servo_esp32.zip",
       "author": "RazorIDE"
     },
     {
@@ -33,26 +33,6 @@
       "author": "RazorIDE"
     },
     {
-      "id": "oled_esp32",
-      "name": "OLED Display (ESP32)",
-      "description": "OLED SSD1306 I2C สำหรับ ESP32",
-      "icon": "📺",
-      "supports": ["esp32", "RAZOR-S2"],
-      "version": "1.0.0",
-      "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/plugin_oled_esp32.zip",
-      "author": "RazorIDE"
-    },
-    {
-      "id": "oled_esp32_32",
-      "name": "OLED 128x32 (ESP32)",
-      "description": "OLED SSD1306 128x32 สำหรับ ESP32",
-      "icon": "📺",
-      "supports": ["esp32", "RAZOR-S2"],
-      "version": "1.0.0",
-      "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/plugin_oled_esp32_32.zip",
-      "author": "RazorIDE"
-    },
-    {
       "id": "oled_nano",
       "name": "OLED Display (Nano)",
       "description": "OLED SSD1306 I2C สำหรับ Arduino Nano",
@@ -63,13 +43,63 @@
       "author": "RazorIDE"
     },
     {
+      "id": "oled_esp32",
+      "name": "OLED Display (ESP32)",
+      "description": "OLED SSD1306 I2C สำหรับ ESP32",
+      "icon": "📺",
+      "supports": ["esp32"],
+      "version": "1.0.0",
+      "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/plugin_oled_esp32.zip",
+      "author": "RazorIDE"
+    },
+    {
+      "id": "oled_esp32_32",
+      "name": "OLED 128x32 (ESP32)",
+      "description": "OLED SSD1306 128x32 สำหรับ ESP32",
+      "icon": "📺",
+      "supports": ["esp32"],
+      "version": "1.0.0",
+      "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/plugin_oled_esp32_32.zip",
+      "author": "RazorIDE"
+    },
+    {
       "id": "oled_pico",
       "name": "OLED Display (Pico)",
-      "description": "OLED SSD1306 I2C สำหรับ Pico",
+      "description": "OLED SSD1306 I2C สำหรับ Raspberry Pi Pico",
       "icon": "📺",
       "supports": ["pico2040"],
       "version": "1.0.0",
       "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/plugin_oled_pico.zip",
+      "author": "RazorIDE"
+    },
+    {
+      "id": "sonar_nano",
+      "name": "Sonar HC-SR04 (Nano)",
+      "description": "วัดระยะด้วย HC-SR04 สำหรับ Arduino Nano — คืนค่า cm",
+      "icon": "📡",
+      "supports": ["nano"],
+      "version": "1.0.0",
+      "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/plugin_sonar_nano.zip",
+      "author": "RazorIDE"
+    },
+    {
+      "id": "sonar_esp32",
+      "name": "Sonar HC-SR04 (ESP32)",
+      "description": "วัดระยะด้วย HC-SR04 สำหรับ ESP32 — คืนค่า cm",
+      "icon": "📡",
+      "supports": ["esp32"],
+      "version": "1.0.0",
+      "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/plugin_sonar_esp32.zip",
+      "author": "RazorIDE"
+    },
+    {
+      "id": "sonar_pico",
+      "name": "Sonar HC-SR04 (Pico)",
+      "description": "วัดระยะด้วย HC-SR04 สำหรับ Raspberry Pi Pico — คืนค่า cm",
+      "icon": "📡",
+      "supports": ["pico2040"],
+      "version": "1.0.0",
+      "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/plugin_sonar_pico.zip",
       "author": "RazorIDE"
     }
   ]
