@@ -1,0 +1,76 @@
+{
+  "manifest_version": "1.0",
+  "updated": "2026-05-29",
+  "plugins": [
+    {
+      "id": "servo_esp32",
+      "name": "Servo (ESP32)",
+      "description": "Servo motor สำหรับ ESP32",
+      "icon": "🦾",
+      "supports": ["esp32", "RAZOR-S2"],
+      "version": "1.0.0",
+      "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/plugin_servo_esp32.zip",
+      "author": "RazorIDE"
+    },
+    {
+      "id": "servo_nano",
+      "name": "Servo (Nano)",
+      "description": "Servo motor สำหรับ Arduino Nano",
+      "icon": "🦾",
+      "supports": ["nano"],
+      "version": "1.0.0",
+      "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/plugin_servo_nano.zip",
+      "author": "RazorIDE"
+    },
+    {
+      "id": "servo_pico",
+      "name": "Servo (Pico)",
+      "description": "Servo motor สำหรับ Raspberry Pi Pico",
+      "icon": "🦾",
+      "supports": ["pico2040"],
+      "version": "1.0.0",
+      "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/plugin_servo_pico.zip",
+      "author": "RazorIDE"
+    },
+    {
+      "id": "oled_esp32",
+      "name": "OLED Display (ESP32)",
+      "description": "OLED SSD1306 I2C สำหรับ ESP32",
+      "icon": "📺",
+      "supports": ["esp32", "RAZOR-S2"],
+      "version": "1.0.0",
+      "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/plugin_oled_esp32.zip",
+      "author": "RazorIDE"
+    },
+    {
+      "id": "oled_esp32_32",
+      "name": "OLED 128x32 (ESP32)",
+      "description": "OLED SSD1306 128x32 สำหรับ ESP32",
+      "icon": "📺",
+      "supports": ["esp32", "RAZOR-S2"],
+      "version": "1.0.0",
+      "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/plugin_oled_esp32_32.zip",
+      "author": "RazorIDE"
+    },
+    {
+      "id": "oled_nano",
+      "name": "OLED Display (Nano)",
+      "description": "OLED SSD1306 I2C สำหรับ Arduino Nano",
+      "icon": "📺",
+      "supports": ["nano"],
+      "version": "1.0.0",
+      "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/plugin_oled_nano.zip",
+      "author": "RazorIDE"
+    },
+    {
+      "id": "oled_pico",
+      "name": "OLED Display (Pico)",
+      "description": "OLED SSD1306 I2C สำหรับ Pico",
+      "icon": "📺",
+      "supports": ["pico2040"],
+      "version": "1.0.0",
+      "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/plugin_oled_pico.zip",
+      "author": "RazorIDE"
+    }
+  ]
+}
