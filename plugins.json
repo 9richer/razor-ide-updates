@@ -79,7 +79,7 @@
       "icon": "📡",
       "supports": ["nano"],
       "version": "1.0.0",
-      "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/plugin_sonar_nano.zip",
+      "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/sonar_nano.zip",
       "author": "RazorIDE"
     },
     {
@@ -89,7 +89,7 @@
       "icon": "📡",
       "supports": ["esp32"],
       "version": "1.0.0",
-      "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/plugin_sonar_esp32.zip",
+      "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/sonar_esp32.zip",
       "author": "RazorIDE"
     },
     {
@@ -99,7 +99,7 @@
       "icon": "📡",
       "supports": ["pico2040"],
       "version": "1.0.0",
-      "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/plugin_sonar_pico.zip",
+      "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/sonar_pico.zip",
       "author": "RazorIDE"
     }
   ]
