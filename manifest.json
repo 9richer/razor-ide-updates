@@ -1,6 +1,6 @@
 {
   "manifest_version": "1.1",
-  "updated": "2026-05-29",
+  "updated": "2026-05-30",
   "boards": [
     {
       "id": "razor_s4",
@@ -9,7 +9,7 @@
       "emoji": "🟢",
       "image": "local:cover.png",
       "language": "cpp",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/boards/razor_s4.zip",
       "shop_url": "",
       "facebook_url": "https://www.facebook.com/Razorbot"

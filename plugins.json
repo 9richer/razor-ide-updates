@@ -1,6 +1,6 @@
 {
   "manifest_version": "1.0",
-  "updated": "2026-05-29",
+  "updated": "2026-05-30",
   "plugins": [
     {
       "id": "servo_nano",
@@ -78,7 +78,7 @@
       "description": "วัดระยะด้วย HC-SR04 สำหรับ Arduino Nano — คืนค่า cm",
       "icon": "📡",
       "supports": ["nano"],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/sonar_nano.zip",
       "author": "RazorIDE"
     },
@@ -88,7 +88,7 @@
       "description": "วัดระยะด้วย HC-SR04 สำหรับ ESP32 — คืนค่า cm",
       "icon": "📡",
       "supports": ["esp32"],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/sonar_esp32.zip",
       "author": "RazorIDE"
     },
@@ -98,7 +98,7 @@
       "description": "วัดระยะด้วย HC-SR04 สำหรับ Raspberry Pi Pico — คืนค่า cm",
       "icon": "📡",
       "supports": ["pico2040"],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/sonar_pico.zip",
       "author": "RazorIDE"
     }
