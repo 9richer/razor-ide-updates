@@ -1,7 +1,17 @@
 {
   "manifest_version": "1.0",
-  "updated": "2026-05-30",
+  "updated": "2026-06-12",
   "plugins": [
+    {
+      "id": "huskylens_razor",
+      "name": "HuskyLens (RAZOR-S3)",
+      "description": "กล้อง AI HuskyLens ผ่าน I2C — ครบ 7 โหมด (ใบหน้า/วัตถุ/จดจำวัตถุ/ตามเส้น/สี/แท็ก/จำแนก) + learn/forget",
+      "icon": "📷",
+      "supports": ["razor_s4"],
+      "version": "1.0.0",
+      "download_url": "https://raw.githubusercontent.com/9richer/razor-ide-updates/main/plugins/huskylens_razor.zip",
+      "author": "RazorIDE"
+    },
     {
       "id": "servo_nano",
       "name": "Servo (Nano)",
