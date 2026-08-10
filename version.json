@@ -1,11 +1,10 @@
 {
-  "version": "1.4.2",
-  "title": "RAZOR IDE v1.4.2",
+  "version": "8.0.17",
+  "title": "RAZOR IDE v8.0.17",
   "changelog": [
-    "เพิ่มระบบ driver config-driven",
-    "แก้ไข Upload RP2040 แสดงผลถูกต้อง",
-    "comment สีเขียวใน Code mode",
-    "เพิ่มปุ่ม Rescan COM Port"
+    "ปรับปรุงประสิทธิภาพการทำงาน",
+    "ปรับปรุง CODE บอร์ด RAZOR-S3ระบบเบรกดิฟให้ลื่นไหล",
+    "เพิ่ม IMU libraries, sonar plugins, ธีมใหม่ และบอร์ด RAZOR-S2"
   ],
   "show_once": true,
   "url": ""
