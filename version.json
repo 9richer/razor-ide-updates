@@ -1,11 +1,11 @@
 {
-  "version": "8.0.20",
-  "title": "RAZOR IDE v8.0.20",
+  "version": "8.0.23",
+  "title": "RAZOR IDE v8.0.23",
   "changelog": [
-    "ปรับปรุงสนามจำลอง ค่าหุ่นยนต์ Sonar และสวิตช์สัมผัส พร้อมสนามตัวอย่าง WALL / Quick box",
-    "แก้คอมไพล์และติดตั้งพาธยาว ไดรเวอร์ CH341/RP2040 และการปิดหน้าต่าง",
-    "รักษาโปรเจกต์เก่าและค่าตั้งเดิม แสดงคอมไพล์สำเร็จ 100% และใช้แคชต่อหลังปิด–เปิดโปรแกรม"
+    "แก้ Compile หลังอัปเดตที่หยุดด้วยข้อความ Failed to create downloads directory / R:\\staging",
+    "โปรแกรมจัดโฟลเดอร์ดาวน์โหลดให้อัตโนมัติ ผู้ใช้ไม่ต้องแก้หรือลบโฟลเดอร์เอง",
+    "รองรับโปรเจกต์เก่าและใหม่ โดยรักษาเวอร์ชันบอร์ดและไลบรารีที่โปรเจกต์เลือกไว้"
   ],
   "show_once": true,
-  "url": "https://github.com/9richer/razor-ide-updates/releases/tag/v8.0.20"
+  "url": "https://github.com/9richer/razor-ide-updates/releases/tag/v8.0.23"
 }
